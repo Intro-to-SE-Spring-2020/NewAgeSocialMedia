@@ -8,7 +8,7 @@ More information about our project including our documentation, meeting minutes,
 | Names               | GitHub username          | Student ID   | Job Description                     |
 | ------------------- |:------------------:      | :-----------:| :---------------------------------: |
 | Jason Stein         | `jss816`                 | jss816       | Project Lead/Back-End Developer     |
-| Jack Hannon         | `runujhkj`               |              | Back-End Developer                  |
+| Jack Hannon         | `runujhkj`               | jkh227       | Back-End Developer                  |
 | Charmaine Beluso    | `charbeluso`             | cbb336       | Front-End Developer                 |
 | Cait Kleinschmidt   | `caitthecaptain`         | cpk48        | Front-End Developer                 |
 
