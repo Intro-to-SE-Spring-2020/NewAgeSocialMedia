@@ -40,5 +40,5 @@ OkBoomer is made to make it easy for anyone to use social media. This project in
 * Categories for Multiple User Posts
 
 ### Languages and Techniques We Plan to Implement
-* Front End: HTML, CSS, React, Angular
-* Back End: Python, C, C++
+* Front End: HTML, CSS, & React.js
+* Back End: Python
