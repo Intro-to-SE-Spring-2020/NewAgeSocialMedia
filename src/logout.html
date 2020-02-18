@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>bye, Boomer</title>
+    </head>
+    <?php
+            session_start();
+            session_unset();
+            session_destroy();
+            setcookie('CurrentUser', null, -1);
+            setcookie('isadmin', null, -1);
+            setcookie('name', null, -1);
+            setcookie('email', null, -1);
+            setcookie('login', null, -1);
+        // remove session and session cookie
+        header('location: login.html');
+        
+    ?> 
+    <body>
+        <h1>bye, Boomer . . .</h1>
+        <p>
+            You are now logged out.
+        </p>
+		
+		<div class="imgcontainer">
+		<img src="goodbye.jpg" height="500" width="500" alt="byeBoomer">
+		</div>
+        <p>
+            <a href="login.html">Log in</a> again!
+        </p>
+    </body>
+</html>
