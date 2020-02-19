@@ -51,7 +51,7 @@ class App extends Component {
         </div>
 
         {/*Footer*/}
-        <div className="w3-bottom">
+        <div>
         <Footer></Footer>
         </div>
       </div>

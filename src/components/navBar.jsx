@@ -20,7 +20,7 @@ export default class NavBar extends Component {
             </div>
           </div>
           <a href="#" className="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
-            <img src="images/logo512.png" className="w3-circle" style={{height: '23px', width: '23px'}} alt="Avatar" />
+            <img src="images/me.png" className="w3-circle" style={{height: '23px', width: '23px'}} alt="Avatar" />
           </a>
         </div>
 

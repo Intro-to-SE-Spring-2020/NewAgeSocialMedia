@@ -7,7 +7,7 @@ export default class FriendRequest extends Component {
       <div className="w3-card w3-round w3-white w3-center">
         <div className="w3-container">
           <p>Friend Request</p>
-          <img src="images/logo512.png" alt="Avatar" style={{width: '25%'}} /><br />
+          <img src="images/janedoe.jpg" alt="Avatar" style={{width: '25%'}} /><br />
           <span>Jane Doe</span>
           <div className="w3-row w3-opacity">
             <div className="w3-half">
