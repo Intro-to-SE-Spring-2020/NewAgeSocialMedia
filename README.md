@@ -42,3 +42,13 @@ OkBoomer is made to make it easy for anyone to use social media. This project in
 ### Languages and Techniques We Plan to Implement
 * Front End: HTML, CSS, & React.js
 * Back End: Python
+
+### Execution & Documentation
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+- To run this project follow these steps ,
+  - clone the repo using `git clone`
+  - on your command line/terminal, navigate the project folder (NewAgeSocialMedia)
+  - make sure you have npm installed
+  - run `npm install` to install node modules
+  - run `npm start` to start the service on `localhost:3000`
