@@ -1,0 +1,140 @@
+div.user-picture {
+    padding: 20px;
+}
+
+div.activity {
+    background-color: #FFF;
+    padding: 20px;
+    margin: 20px;
+}
+
+div.user {
+    background-color: #FFF;
+    margin-top: 20px;
+}
+
+
+div.activity-text {
+    top: 0px;
+    color: #5E799A;
+}
+
+span.hashtag {
+    font-weight: bold;
+}
+
+span.mention {
+    font-weight: bold;
+}
+
+span.time-tweeted {
+    font-size: 12px;
+    color: #AAA;
+}
+
+div.user-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div.user-basic-info {
+    padding: 0px 20px 0px 20px;
+}
+
+div.user-description {
+    margin-top:10px;
+    padding: 0px 20px 10px 20px;
+}
+
+div.welcome {
+    margin-top:30px;
+    text-align: center;
+}
+
+div.follow-button {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+div.hashtags {
+    text-align: center;
+    color: #FFF;
+}
+
+div.timeline-content {
+    margin: 20px;
+}
+
+div.search-title {
+    color: #FFF;
+}
+
+div.description {
+    margin: 20px 0px 20px 0px;
+    font-size: 25px;
+    text-align: center;
+    color: #FFF;
+}
+
+.navbar {
+    border: none;
+}
+
+span.user-basic-info-name {
+    font-size: 20px;
+    display: block;
+}
+
+span.hashtag_name {
+    text-decoration: underline;
+}
+
+img.tweet-profile {
+    margin-top:10px;
+    min-width: 60px
+}
+
+img.profile-picture {
+    min-width: 80px;
+}
+
+h1.welcome-title {
+    font-size: 60px;
+    color: #FFF;
+}
+
+a.hashtag {
+    color: #FFF;
+    font-size: 20px;
+}
+
+a.description-link {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+a.description-link:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.deactivated {
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+    z-index:99;
+}
+
+.signup {
+    z-index:100;
+    text-align:center;
+    position:absolute;
+    margin-top:50px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*body {
+    color: #2B4155;
+}
