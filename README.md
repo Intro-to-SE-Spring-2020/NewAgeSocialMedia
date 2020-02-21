@@ -48,7 +48,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - To run this project follow these steps ,
   - clone the repo using `git clone`
-  - on your command line/terminal, navigate the project folder (NewAgeSocialMedia)
+  - on your command line/terminal, navigate the project folder (`NewAgeSocialMedia`)  
+  - then navigate to the `frontend` folder within the NewAgeSocialMedia project folder
   - make sure you have npm installed
-  - run `npm install` to install node modules
+  - run `npm ci` to install Travis CI and node_modules
+  - run `npm install` 
   - run `npm start` to start the service on `localhost:3000`
