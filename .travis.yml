@@ -10,7 +10,7 @@ install:
 deploy:
   provider: heroku
   api_key:
-    secure: 2c970c38-6e2c-40be-9716-4413ea9dcab8
+    secure: "2c970c38-6e2c-40be-9716-4413ea9dcab8"
     
 # command to run tests
 script:
