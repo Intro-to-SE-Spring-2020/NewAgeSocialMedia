@@ -9,6 +9,14 @@ python:
   - "3.8-dev"  # 3.8 development branch
   - "nightly"  # nightly build
 # command to install dependencies
+
+#deploy heroku
+deploy:
+  provider: heroku
+  api_key:
+    secure: 2c970c38-6e2c-40be-9716-4413ea9dcab8
+ 
+
 install:
   - pip install -r requirements.txt
 # command to run tests
