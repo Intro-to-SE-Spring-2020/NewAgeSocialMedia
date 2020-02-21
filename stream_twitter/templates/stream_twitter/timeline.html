@@ -1,0 +1,31 @@
+{% extends 'stream_twitter/_base.html' %}
+{% load activity_tags %}
+
+
+{% block content %}
+<div class="container">
+<div class="row">
+  <div class="col-md-3">
+    {% include 'stream_twitter/_user.html' %}
+  </div>
+  <div class="col-md-6">
+    <div class="timeline-content">
+      <div class="row">
+        <div class="col-xs-12">
+          {% include 'stream_twitter/_tweetbox.html' %}
+        </div>
+        <div class="col-xs-12">
+          {% for activity in activities %}
+            {% render_activity activity %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    {% include 'stream_twitter/_hashtags.html' %} 
+  </div>
+</div>
+
+</div>
+{% endblock content %}
