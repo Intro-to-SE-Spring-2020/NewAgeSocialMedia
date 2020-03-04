@@ -3,7 +3,7 @@ gnureadline==6.3.3
 gunicorn==19.7.1
 Pillow==4.3.0
 psycopg2==2.7.3.1
-requests==2.18.4
+requests==2.20.0
 six==1.9.0
 stream-django==1.4.0
 whitenoise==3.3.1
