@@ -1,49 +1,55 @@
-## Stream Twitter clone
+# OkBoomer - Developed by the NewAgeSocialMedia Team
 
-This is a simple Twitter clone app built with [Stream](http://getstream.io)'s API. It shows you how you can use [GetStream.io](https://getstream.io/ "GetStream.io") to build a site similar to Twitter.
+## Overview
+OkBoomer provides a solution to navigating social media that allows for the simplest user experience online.
+More information about our project including our documentation, meeting minutes, etc. can be found on our [wiki page](https://github.com/Intro-to-SE-Spring-2020/NewAgeSocialMedia/wiki).
 
-If you're looking to self-host your feed solution we suggest the open source [Stream-Framework](https://github.com/tschellenbach/Stream-Framework), created by the Stream founders.
+### Team Members
+| Names               | GitHub username          | Student ID   | Job Description                     |
+| ------------------- |:------------------:      | :-----------:| :---------------------------------: |
+| Jason Stein         | `jss816`                 | jss816       | Project Lead/Back-End Developer     |
+| Jack Hannon         | `runujhkj`               | jkh227       | Back-End Developer                  |
+| Charmaine Beluso    | `charbeluso`             | cbb336       | Front-End Developer                 |
+| Cait Kleinschmidt   | `caitthecaptain`         | cpk48        | Front-End Developer                 |
 
-### Heroku
+### Description
+This is the repository for the OkBoomer Website for Intro to Software Engineering (CSE 4214). OkBoomer is a social media site that offers the simplest online experience.
 
-The best way to try this application is via Heroku; you can deploy this example (for free) on Heroku
-by pressing the Deploy button below.
+### Objective
+OkBoomer is made to make it easy for anyone to use social media. This project involves making a Twitter-like website that supports basic Twitter functionalities. Through this project, we will get hands-on experience in software development, specifically in web applications.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+### Core Features
+* Compose a "BOOM"
+* React to "BOOM"
+* Comment on a "BOOM"
+* Subscribe to User
+* Create an Account
+* Log in/out of an Account
+* Account Database
+* Database for User Posts
+* Account Settings
+* Personalized Feeds
+* Upload Pictures
+* Threads
+* Search Engine
+* Filters
+* Direct Messages
+* Privacy for Accounts (including blocking, making account private, etc.)
+* Story Creations
+* AI for Clustering Posts into Categories
+* Categories for Multiple User Posts
 
-If you prefer to run this locally then make sure to signup for GetStream's service and follow this steps:
+### Languages and Techniques We Plan to Implement
+* Front End: HTML, CSS, & React.js
+* Back End: Python, Django
 
+### Execution & Documentation
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**Install the requirements**
-
-```
-pip install -r requirements.txt
-```
-
-**Add your API keys to pytutorial/settings.py**
-
-```python
-STREAM_API_KEY = 'my_api_key'
-STREAM_API_SECRET = 'my_api_secret'
-```
-
-**Run server in debug mode pytutorial/settings.py**
-```python
-DEBUG = True
-```
-
-**Setup your database and the demo data:**
-
-```
-python manage.py after_deploy
-```
-
-**Collect static files (javascript/css)**
-```
-python manage.py collectstatic
-```
-
-**Start the webserver**
-```
-python manage.py runserver
-```
+- To run this project follow these steps ,
+  - clone the repo using `git clone`
+  - on your command line/terminal, navigate the project folder (NewAgeSocialMedia)
+  - 'cd frontend'
+  - make sure you have npm installed
+  - run `npm install` to install node modules
+  - run `npm start` to start the service on `localhost:3000`
