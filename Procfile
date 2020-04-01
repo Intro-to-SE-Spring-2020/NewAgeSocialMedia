@@ -1,1 +1,0 @@
-web: gunicorn pytutorial.wsgi -w 3
