@@ -7,10 +7,11 @@ More information about our project including our documentation, meeting minutes,
 ### Team Members
 | Names               | GitHub username          | Student ID   | Job Description                     |
 | ------------------- |:------------------:      | :-----------:| :---------------------------------: |
-| Jason Stein         | `jss816`                 | jss816       | Project Lead/Back-End Developer     |
-| Jack Hannon         | `runujhkj`               | jkh227       | Back-End Developer                  |
-| Charmaine Beluso    | `charbeluso`             | cbb336       | Front-End Developer                 |
+| Charmaine Beluso    | `charbeluso`             | cbb336       | Project Lead/Front-End Developer    |
 | Cait Kleinschmidt   | `caitthecaptain`         | cpk48        | Front-End Developer                 |
+| Jason Stein         | `jss816`                 | jss816       | Back-End Developer                  |
+| Jack Hannon         | `runujhkj`               | jkh227       | Back-End Developer                  |
+
 
 ### Description
 This is the repository for the OkBoomer Website for Intro to Software Engineering (CSE 4214). OkBoomer is a social media site that offers the simplest online experience.
@@ -19,29 +20,13 @@ This is the repository for the OkBoomer Website for Intro to Software Engineerin
 OkBoomer is made to make it easy for anyone to use social media. This project involves making a Twitter-like website that supports basic Twitter functionalities. Through this project, we will get hands-on experience in software development, specifically in web applications.
 
 ### Core Features
-* Compose a "BOOM"
-* React to "BOOM"
-* Comment on a "BOOM"
-* Subscribe to User
-* Create an Account
-* Log in/out of an Account
-* Account Database
-* Database for User Posts
-* Account Settings
-* Personalized Feeds
-* Upload Pictures
-* Threads
-* Search Engine
-* Filters
-* Direct Messages
-* Privacy for Accounts (including blocking, making account private, etc.)
-* Story Creations
-* AI for Clustering Posts into Categories
-* Categories for Multiple User Posts
+* Post a "BOOM"
+* React to a "BOOM"
+* Follow a User
 
 ### Languages and Techniques We Plan to Implement
 * Front End: HTML, CSS, & React.js
-* Back End: Python, Django
+* Back End: Django
 
 ### Execution & Documentation
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
