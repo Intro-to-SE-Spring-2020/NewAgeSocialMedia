@@ -25,7 +25,6 @@ matrix:
       before_install:
          - npm update
       install:
-        - pip install -r requirements.txt
         - npm install
       script:
         - npm run test
