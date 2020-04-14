@@ -1,15 +1,22 @@
-language: python
+language:
+  - python
+  - node_js
 python:
   - "3.6"      # current default Python on Travis CI
   - "3.7"
   - "3.8"
+node_js:
+  - stable
+branches:
+only:
+  - master
 # command to install dependencies
 before_install:
-- npm update
+   - npm update
 install:
   - pip install -r requirements.txt
   - npm install
 # command to run tests
 script:
   - pytest
-  - npm test
+  - npm run test

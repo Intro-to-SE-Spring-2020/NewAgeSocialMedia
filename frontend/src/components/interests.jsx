@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 export default class Interests extends Component {
   render() {
     return (
-
       <div className="w3-card w3-round w3-white w3-hide-small">
         <div className="w3-container">
           <p>Interests</p>

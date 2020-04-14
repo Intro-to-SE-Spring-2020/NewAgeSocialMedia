@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import './App.css'
-import Accordion from './components/accordion'
-import Alerts from './components/alerts'
 import Biography from './components/biography'
 import FriendRequest from './components/friendRequest'
 import Interests from './components/interests'
+import MoreInfo from './components/moreInfo'
 import NavBar from './components/navBar'
-import NavBarSmall from './components/navBarSmall'
 import NewPost from './components/newPost'
 import Posted from './components/posted'
-import Footer from './components/footer'
 
 class App extends Component {
   render() {
@@ -29,11 +26,9 @@ class App extends Component {
             <div className="w3-col m3">
               <Biography></Biography>
               <br/>
-              <Accordion></Accordion>
+              <MoreInfo></MoreInfo>
               <br/>
               <Interests></Interests>
-              <br/>
-              <Alerts></Alerts>
             </div>
 
             {/*Middle Column*/}
@@ -48,11 +43,6 @@ class App extends Component {
             </div>
 
           </div>
-        </div>
-
-        {/*Footer*/}
-        <div>
-        <Footer></Footer>
         </div>
       </div>
     );

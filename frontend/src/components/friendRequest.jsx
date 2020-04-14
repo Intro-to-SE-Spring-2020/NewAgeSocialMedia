@@ -3,10 +3,9 @@ import React, { Component } from 'react'
 export default class FriendRequest extends Component {
   render() {
     return (
-
       <div className="w3-card w3-round w3-white w3-center">
         <div className="w3-container">
-          <p>Friend Request</p>
+          <p>New Friend Request</p>
           <img src="images/janedoe.jpg" alt="Avatar" style={{width: '25%'}} /><br />
           <span>Jane Doe</span>
           <div className="w3-row w3-opacity">
