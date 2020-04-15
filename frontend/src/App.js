@@ -1,3 +1,4 @@
+// Import all of the components to create the whole page
 import React, { Component } from 'react';
 import './App.css'
 import Biography from './components/biography'
@@ -8,8 +9,11 @@ import NavBar from './components/navBar'
 import NewPost from './components/newPost'
 import Posted from './components/posted'
 
+// Create the class
 class App extends Component {
+
   render() {
+
     return (
 
       <div>

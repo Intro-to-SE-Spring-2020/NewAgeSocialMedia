@@ -1,8 +1,14 @@
 import React, { Component } from 'react'
 
+// Create a new component
 export default class Biography extends Component {
+
+  // Render the component
   render() {
+
     return (
+
+      // Style the Biography section and add profile information
       <div className="w3-card w3-round w3-white">
         <div className="w3-container">
           <h4 className="w3-center">My Profile</h4>

@@ -1,8 +1,13 @@
 import React, { Component } from 'react'
 
+// Create a new component
 export default class Interests extends Component {
+
+  // Render the component
   render() {
+
     return (
+      // Style the Interests section and add various interests
       <div className="w3-card w3-round w3-white w3-hide-small">
         <div className="w3-container">
           <p>Interests</p>

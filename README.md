@@ -27,6 +27,7 @@ OkBoomer is made to make it easy for anyone to use social media. This project in
 ### Languages and Techniques We Plan to Implement
 * Front End: HTML, CSS, & React.js
 * Back End: Django
+* Coding Style: We followed the standard style of CSS and Javascript to write our React.js code and inline CSS styles.
 
 ### Execution & Documentation
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

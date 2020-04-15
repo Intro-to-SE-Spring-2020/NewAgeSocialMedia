@@ -1,8 +1,13 @@
 import React, { Component } from 'react'
 
+// Create a new component
 export default class FriendRequest extends Component {
+
+  // Render the component
   render() {
+
     return (
+      // Style the FriendRequest section
       <div className="w3-card w3-round w3-white w3-center">
         <div className="w3-container">
           <p>New Friend Request</p>

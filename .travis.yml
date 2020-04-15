@@ -1,5 +1,6 @@
 matrix:
   include:
+    # For django testing
     - language: python
       python:
         - "3.6"      # current default Python on Travis CI
@@ -15,15 +16,19 @@ matrix:
       script:
         - pytest
 
+    # For React.js testing
     - language: node_js
       node_js:
         - stable
       before_script:
-        - cd frontend
+        - cd frontend # package.json is in frontend directory
       branches:
       only:
         - master
       # command to install dependencies
+      cache:
+      directories:
+      - node_modules
       before_install:
          - npm update
       install:

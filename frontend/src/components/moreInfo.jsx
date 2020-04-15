@@ -1,8 +1,14 @@
 import React, { Component } from 'react'
 
+// Create a new component
 export default class MoreInfo extends Component {
+
+  // Render the component
   render() {
+    
     return (
+
+      // Style the MoreInfo section
       <div className="w3-card w3-round">
         <div className="w3-white">
           <button className="w3-button w3-block w3-theme-l1 w3-left-align"><i className="fa fa-circle-o-notch fa-fw w3-margin-right" /> My Groups</button>
