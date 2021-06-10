@@ -1,4 +1,4 @@
-Django==2.0.3
+Django==2.2.24
 gnureadline==6.3.3
 gunicorn==19.7.1
 Pillow>=6.2.2
